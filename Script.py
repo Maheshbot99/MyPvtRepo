@@ -13,6 +13,13 @@ class script(object):
 
 𝚃𝚑𝚎𝚗 𝙰𝚖 𝚃𝚛𝚢 𝚃𝚘 𝙲𝚛𝚎𝚊𝚝 𝙰 𝙱𝚘𝚝 𝙵𝚘𝚛 𝚈𝚘𝚞😌"""
     
+    CLONESTART_TXT = """𝙷𝚎𝚕𝚕𝚘 {}
+
+ɪ ᴀᴍ  <a href=https://t.me/{}>{}</a>
+
+ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀɴ ᴀᴅᴍɪɴ ᴛʜᴇʀ ᴀɴᴅ ᴛʜᴇɴ ᴀᴍ ᴘʀᴏᴠɪᴅᴇs ᴍᴏᴠɪᴇs ᴛʜᴇʀᴇ
+"""
+    
     TGRAPH_TXT = """
 <b>⍟───[ ᴛᴇʟᴇɢʀᴀᴩʜ ᴩʜᴏᴛᴏ ]───⍟ 
 ꜱᴇɴᴅ ᴍᴇ ᴏɴᴇ ᴩʜᴏᴛᴏ ᴀɴᴅ ᴜꜱᴇ ᴛʜɪꜱ /telegraph ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴩʜ ʟɪɴᴋ
@@ -453,6 +460,14 @@ coммand and υѕeѕ
 """
     CLOSE_TXT = """
 <b>⚙️ {message.from_user.mention} Fɪʟᴛᴇʀ Fᴏʀ {search} Cʟᴏꜱᴇᴅ 🗑️</b>"""
+    
+    RESTART_TXT = """
+<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
+
+📅 Dᴀᴛᴇ : <code>{}</code>
+⏰ Tɪᴍᴇ : <code>{}</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
     
     NOR_TXT = """
 <b>🔖Tɪᴛʟᴇ : {}
