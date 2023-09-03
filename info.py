@@ -84,6 +84,10 @@ GROUP_SUB = int(group_sub) if auth_channel and id_pattern.search(group_sub) else
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
+#Clone
+CLONE_SESSIONS = {}
+CLONED_SESSIONS = []
+
 # Others
 PORT = environ.get("PORT", "8080")
 VERIFY = bool(environ.get('VERIFY', False))
