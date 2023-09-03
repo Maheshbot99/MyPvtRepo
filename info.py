@@ -90,6 +90,7 @@ CLONE_SESSIONS = {}
 CLONED_SESSIONS = []
 
 # Others
+IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 PORT = environ.get("PORT", "8080")
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
